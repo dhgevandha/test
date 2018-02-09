@@ -120,22 +120,10 @@
            <div class="row">
              <div class="large-12 columns header-carousel">
                <div class="videoWrapper">
-                           <?php
-                               $fields = array(
-                               'slides' => get_field('sliderkmoments')
-                               );
-                               $i = 0;
-                               foreach ($fields['slides'] as $slide) {
-                               $i++;
-                           ?>
-                            <div class="bgcover" style="">
-                               <iframe src="https://www.youtube.com/embed/<?php echo $slide['id_youtube'];?>?autoplay=1&rel=0" frameborder="0" allowfullscreen width="940" height="540"></iframe>
-
-                               <div class="text">
-                                   <?php echo $slide['text3']; ?>
-                               </div>
-                             </div>
-                       <?php } ?>
+                      <video width="320" height="240" controls="" autoplay="" loop="" playsinline="" muted="" id="bgvideo">
+                      <source src="https://dev.karmagroup.com/latest-karma-group-reviews/wp-content/themes/slimwriter/karma-moments.webm" type="video/webm">
+                      <source src="https://dev.karmagroup.com/latest-karma-group-reviews/good-karma-new.mp4" type="video/mp4">
+                      </video>    
                  </div>
 
          </div></div></section>
