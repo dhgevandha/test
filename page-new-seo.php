@@ -10,14 +10,14 @@ get_header();
     <div class="banner">
         <div class="owl-carousel">
 
-          <div class="bannerslider" style="background:url(http://karmaexperience.in/wp-content/uploads/2017/08/cay-tre-overview.jpg) no-repeat center center; background-size:cover;-webki-background-size:cover;-moz-background-size:cover;-ms-background-size:cover;-o-background-size:cover;">
+          <div class="bannerslider" style="background:url(http://karmaexperience.com/wp-content/uploads/2017/08/cay-tre-overview.jpg) no-repeat center center; background-size:cover;-webki-background-size:cover;-moz-background-size:cover;-ms-background-size:cover;-o-background-size:cover;">
             <div class="wrapdestination">
               <h1>KARMA CAY TRE</h1>
               <h5>Vietnam</h5>
             </div>
           </div>
 
-          <div class="bannerslider" style="background:url(http://karmaexperience.in/wp-content/uploads/2017/08/cay-tre-restaurant.jpg) no-repeat center center; background-size:cover;-webki-background-size:cover;-moz-background-size:cover;-ms-background-size:cover;-o-background-size:cover;">
+          <div class="bannerslider" style="background:url(http://karmaexperience.com/wp-content/uploads/2017/08/cay-tre-restaurant.jpg) no-repeat center center; background-size:cover;-webki-background-size:cover;-moz-background-size:cover;-ms-background-size:cover;-o-background-size:cover;">
             <div class="wrapdestination">
               <h1>KARMA CAY TRE</h1>
               <h5>Vietnam</h5>
@@ -71,7 +71,7 @@ get_header();
     <section class="singleabout3" style="background-color:#f2e6d6;">
 
         <div class="col-lg-6 homeaboutbox left" style="margin-top: 25px;">
-          <img src="<?php echo get_template_directory_uri(); ?>/templates/images/cay-tre-estaurant.png" class="img-responsive imginside" alt="karma experience">
+          <img src="<?php echo get_template_directory_uri(); ?>/templates/images/cay-tre-restaurant.png" class="img-responsive imginside" alt="karma experience">
         </div>
 
         <div class="col-lg-6 homeaboutbox right" style="margin-top: 25px;"> 
